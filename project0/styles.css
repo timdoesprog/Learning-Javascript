@@ -1,0 +1,12 @@
+body {
+    background-color: #eee;
+    font-family: "Roboto Slab", sans-serif;
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+p {
+    border-bottom: dotted 2px black;
+    padding-bottom: 10px;
+}
