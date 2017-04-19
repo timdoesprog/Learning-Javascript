@@ -1,0 +1,23 @@
+body {
+    font-family: 'Roboto Slab', monospace, sans-serif;
+    background: #E0F2F1;
+}
+
+.container {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    padding: 50px;
+    border: solid 3px black;
+    border-radius: 3px;
+}
+
+button {
+    padding: 10px 25px;
+    background: #004D40;
+    border-radius: 3px;
+    color: #E0F2F1;
+}
