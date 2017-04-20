@@ -1,0 +1,36 @@
+body {
+    font-family: 'Roboto Slab', monospace, sans-serif;
+    background: #E0F2F1;
+}
+
+.container {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    padding: 10px 0;
+    margin: 3px 0;
+    border: dotted 2px black;
+}
+
+.playing {
+    background-color: #80CBC4;
+}
+
+.duration {
+    float: right;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 25px;
+    background: #004D40;
+    border-radius: 3px;
+    color: #E0F2F1;
+}
