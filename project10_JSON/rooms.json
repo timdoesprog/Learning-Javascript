@@ -1,0 +1,34 @@
+[
+    {
+        "room" : 101,
+        "occupied" : true
+    },
+    {
+        "room" : 102,
+        "occupied" : false
+    },
+    {
+        "room" : 103,
+        "occupied" : true
+    },
+    {
+        "room" : 104,
+        "occupied" : false
+    },
+    {
+        "room" : 105,
+        "occupied" : false
+    },
+    {
+        "room" : 106,
+        "occupied" : true
+    },
+    {
+        "room" : 107,
+        "occupied" : true
+    },
+    {
+        "room" : 108,
+        "occupied" : true
+    }
+]
