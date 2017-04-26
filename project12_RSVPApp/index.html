@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>RSVP App</title>
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <h1>RSVP Application</h1>
+            <form id="registration">
+                <input type="text" placeholder="Type in a name" autofocus />
+                <button type="submit" name="submit">Submit</button>
+            </form>
+        </header>
+
+        <div id="main">
+            <h2>Invitees</h2>
+            <input type="checkbox" id="hasResponded"  />
+            <label id="responded" for="hasResponded">Hide those who have responded</label>
+            <ul id="invitedList">
+
+            </ul>
+        </div> <!-- div main -->
+
+    </div> <!-- div wrapper -->
+
+
+    <script src="app.js"></script>
+</body>
+</html>

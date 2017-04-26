@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Ajax and jQuery</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+
+        <button>>> Get something nice <<</button>
+        <div id="ajax">
+
+        </div> <!-- div ajax -->
+        <ul id="employees">
+
+        </ul>
+        <form method="POST" action="/newsletter">
+            <fieldset>
+                <legend>
+                    Newsletter Information
+                </legend>
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" /><br />
+                <label for="email">E-Mail</label>
+                <input type="text" name="email" id="email"/><br />
+                <input type="submit" value="Submit" id="submit" />
+            </fieldset>
+        </form>
+
+    </div> <!-- div container -->
+    <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+    <script src="widget.js"></script>
+</body>
+</html>
